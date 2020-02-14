@@ -41,7 +41,7 @@ figure div{
 }
 #lloris{
 	top: 320px;
-	left: 50px;
+	left: 12px;
 }
 #sessegnon{
 	top: 50px;
@@ -116,6 +116,10 @@ h3, h4{
 }
 #sessegnon .hover-info{
 	top: -165px;
+}
+
+#vertonghen .hover-info{
+	top: -155px;
 }
 
 
