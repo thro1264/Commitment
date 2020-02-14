@@ -1,1 +1,110 @@
-commitment.txt
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="commitment.css" rel="stylesheet">
+	<title>Commitment</title>
+</head>
+<body>
+	<section id = "pitch">
+		<h1>Tottenham Hotspur</h1>
+		<figure id = "lloris">
+			<img class = "player" src = "img/lloris.png" alt = "Hugo Lloris">
+			<h2>Hugo Lloris</h2>
+		</figure>
+		<figure id = "vertonghen">
+			<img class = "player" src = "img/vertonghen.png" alt = "Jan Vertonghen">
+			<h2>Jan Vertonghen</h2>
+		</figure>
+		<figure id = "alderweireld">
+			<img class = "player" src = "img/alderweireld.png" alt = "Toby Alderweireld">
+			<h2>Toby Alderweireld</h2>
+		</figure>
+		
+		<figure id = "son">
+			<img class = "player" src = "img/son.png" alt = "Dele Alli">
+			<h2>Dele Alli</h2>
+		</figure>
+		<figure id = "alli">
+			<img class = "player" src = "img/alli.png" alt = "Dele Alli">
+			<h2>Dele Alli</h2>
+		</figure>
+		<figure id = "kane">
+			<img class = "player" src = "img/kane.png" alt = "Harry Kane">
+			<h2>Harry Kane</h2>
+		</figure>
+	</section>
+</body>
+</html>
+
+body, html{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#pitch{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-image: url("img/pitch.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+h1{
+	text-align: center;
+	font-family: helvetica, san-serif;
+	font-size: 48px;
+	color: white;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+h2{
+	font-family: helvetica, sans-serif;
+	color: white;
+	font-size: 20px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+figure{
+	text-align: center;
+	position: absolute;
+}
+
+.player{
+	max-height: 100px;
+	max-width: auto;
+}
+
+#lloris{
+	top: 320px;
+	left: 50px;
+}
+
+#vertonghen{
+	top: 200px;
+	left: 210px;
+}
+
+#alderweireld{
+	top: 400px;
+	left: 200px;
+}
+
+
+#son{
+	
+}
+#alli{
+	top: 320px;
+	left: 850px;
+}
+#kane{
+	top: 320px;
+	left: 1000px;
+}
