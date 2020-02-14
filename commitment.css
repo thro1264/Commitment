@@ -89,35 +89,33 @@ figure:hover{
 	background-color: white;
 	border-radius: 10px;
 }
-
 figure:hover .player {
 	visibility: hidden;
 }
-
 figure:hover .hover-info{
 	visibility: visible;
 }
-
 .hover-info{
 	position: relative;
 	top: -140px;
-	color: #132257;;
+	color: #132257;
+	font-family: helvetica, sans-serif;
 }
-
 .hover-info header{
 	display: inline;
 	text-align: center;
 }
-
 h3, h4{
 	color: #132257;
 	margin: 0;
 	padding: 0;
-	font-family: helvetica, sans-serif;
+	
 }
-
 .hover-info span{
 	font-weight: bold;
+}
+#sessegnon .hover-info{
+	top: -165px;
 }
 
 
