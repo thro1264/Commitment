@@ -45,39 +45,39 @@ figure div{
 }
 #sessegnon{
 	top: 50px;
-	left: 250px;
+	left: 280px;
 }
 #vertonghen{
-	top: 200px;
+	top: 225px;
 	left: 210px;
 }
 #alderweireld{
-	top: 400px;
-	left: 200px;
+	top: 425px;
+	left: 225px;
 }
 #aurier{
-	top: 550px;
+	top: 600px;
 	left: 275px;
 }
 #locelso{
 	top: 225px;
-	left: 600px;
+	left: 550px;
 }
 #ndombele{
 	top: 400px;
-	left: 595px;
+	left: 542px;
 }
 #moura{
 	top: 525px;
-	left: 765px;
+	left: 755px;
 }
 #son{
 	top: 100px;
-	left: 750px;
+	left: 725px;
 }
 #alli{
 	top: 320px;
-	left: 850px;
+	left: 800px;
 }
 #kane{
 	top: 320px;
@@ -129,5 +129,6 @@ h3, h4{
 #ndombele .hover-info{
 	top: -165px;
 }
+
 
 
