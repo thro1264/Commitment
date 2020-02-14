@@ -94,11 +94,11 @@ figure:hover .player {
 	visibility: hidden;
 }
 
-figure:hover div{
+figure:hover .hover-info{
 	visibility: visible;
 }
 
-figure div header{
+.hover-info header{
 	display: inline-block;
 	text-align: center;
 }
@@ -109,5 +109,6 @@ h3, h4{
 	padding: 0;
 	position: relative;
 	top: -140px;
+	font-family: helvetica, sans-serif;
 }
 
