@@ -98,8 +98,14 @@ figure:hover .hover-info{
 	visibility: visible;
 }
 
+.hover-info{
+	position: relative;
+	top: -140px;
+	color: #132257;;
+}
+
 .hover-info header{
-	display: inline-block;
+	display: inline;
 	text-align: center;
 }
 
@@ -107,8 +113,11 @@ h3, h4{
 	color: #132257;
 	margin: 0;
 	padding: 0;
-	position: relative;
-	top: -140px;
 	font-family: helvetica, sans-serif;
 }
+
+.hover-info span{
+	font-weight: bold;
+}
+
 
