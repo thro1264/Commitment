@@ -32,6 +32,9 @@ figure{
 	text-align: center;
 	position: absolute;
 }
+figure div{
+	visibility: hidden;
+}
 .player{
 	max-height: 100px;
 	max-width: auto;
@@ -89,5 +92,22 @@ figure:hover{
 
 figure:hover .player {
 	visibility: hidden;
-	display: none;
 }
+
+figure:hover div{
+	visibility: visible;
+}
+
+figure div header{
+	display: inline-block;
+	text-align: center;
+}
+
+h3, h4{
+	color: #132257;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -140px;
+}
+
