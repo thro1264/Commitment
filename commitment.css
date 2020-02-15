@@ -19,7 +19,7 @@ h1{
 	font-size: 48px;
 	color: #132257;
 	margin-top: 0;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 #tottenham-header{
 	display: block;
@@ -120,7 +120,7 @@ h3, h4{
 	padding: 0;
 	
 }
-.hover-info span{
+span{
 	font-weight: bold;
 }
 #sessegnon .hover-info{
@@ -148,9 +148,16 @@ h5{
 	font-size: 24px;
 	font-family: helvetica, sans-serif;
 }
+#subs{
+	margin-left: 2%;
+	margin-right: 2%;
+}
 .substitute{
 	padding: 10px;
 }
 .substitute img{
 	max-height: 200px;
+}
+p, span{
+	color: #132257;
 }
