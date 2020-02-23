@@ -40,28 +40,39 @@ h2{
 .block{
 	text-align: center;
 	position: absolute;
+	width: 100px;
+	height: 100px;
 	background-color: transparent;
+	border: 1px solid #f1f1f1;
+}
+.block:hover .non-hover{
+	visibility: hidden;
 }
 .non-hover .hover-info{
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	width: 100px;
+	height: 100px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
 .non-hover{
 	perspective: 1000px;
-/*	background-color: grey;*/
+	background-color: white;
+	border-radius: 10px;
+	width: 100px;
+	height: 100px;
 }
 .hover-info{
 	visibility: hidden;
 	transform: rotateY(180deg);
+	width: 100px;
+	height: 100px;
 }
 .flip-card{
 	position: relative;
-	width: 100%;
-	height: 100%;
+/*	width: 100%;
+	height: 100%;*/
 	text-align: center;
 	transition: transform 0.8s;
 	transform-style: preserve-3d;
