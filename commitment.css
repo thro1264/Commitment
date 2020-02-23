@@ -55,6 +55,9 @@ h2{
 	transition: transform 0.8s;
 	transform-style: preserve-3d;
 }
+.block:hover .flip-card{
+	transform: rotateY(180deg);
+}
 .player{
 	max-height: 100px;
 	max-width: auto;
