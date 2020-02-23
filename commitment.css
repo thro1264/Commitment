@@ -37,11 +37,11 @@ h2{
 	padding-top: 0px;
 	margin-top: 0px;
 }
-figure{
+.block{
 	text-align: center;
 	position: absolute;
 }
-figure div{
+.hover-info{
 	visibility: hidden;
 }
 .player{
@@ -92,16 +92,16 @@ figure div{
 	top: 320px;
 	left: 1000px;
 }
-figure:hover{
+.block:hover{
 	height: 150px;
 	width: 150px;
 	background-color: white;
 	border-radius: 10px;
 }
-figure:hover .player {
+.block:hover .player {
 	visibility: hidden;
 }
-figure:hover .hover-info{
+.block:hover .hover-info{
 	visibility: visible;
 }
 .hover-info{
