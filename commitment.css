@@ -267,8 +267,12 @@ p, span{
 #outside{
 	max-height: 370px;
 }
-
-#match{
+#schedule{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.match{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
