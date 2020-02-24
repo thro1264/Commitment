@@ -18,7 +18,6 @@
 // 	x[slideIndex-1].style.display = "block";
 // 	setTimeout(_slideshow, 2000);
 // }
-
 $("#slideshow > div:gt(0)").hide();
 
 setInterval(function() {
