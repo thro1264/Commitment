@@ -222,11 +222,12 @@ p, span{
 }
 
 .slide{
+	display:none;
 	width: 100%;
 }
 
 .slideshow{
-	display: none;
+	/*display: none;*/
 	max-width: 500px;
 }
 
