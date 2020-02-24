@@ -18,9 +18,20 @@ h1{
 	font-family: helvetica, san-serif;
 	font-size: 48px;
 	color: #132257;
+	border-bottom: 4px solid #132257;
+	line-height: 0.1em;
 	margin-top: 0;
 	padding-top: 20px;
+
 }
+
+h1 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+
+
 #tottenham-header{
 	display: block;
 	height: 100px;
