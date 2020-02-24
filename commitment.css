@@ -89,6 +89,15 @@ h2{
 	top: 320px;
 	left: 12px;
 }
+.non-hover p{
+	color: #dddddd;
+	font-family: 'helvetica', sans-serif;
+	font-size: 36px;
+	position: relative;
+	top: -110px;
+	left: 60px;
+
+}
 #sessegnon{
 	top: 50px;
 	left: 280px;
@@ -174,6 +183,9 @@ span{
 }
 #ndombele .hover-info{
 	top: -165px;
+}
+#ndombele:hover{
+	height: 170px;
 }
 #sub-players{
 	display: flex;
