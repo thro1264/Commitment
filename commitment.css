@@ -48,13 +48,13 @@ h2{
 .block:hover .non-hover{
 	visibility: hidden;
 }
-.non-hover .hover-info{
+/*.non-hover .hover-info{
 	position: absolute;
-/*	width: 100px;
-	height: 100px;*/
-/*	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;*/
-}
+	width: 100px;
+	height: 100px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}*/
 
 .non-hover{
 /*	border: 1px solid white;
@@ -69,6 +69,8 @@ h2{
 	/*transform: rotateY(180deg);*/
 /*	width: 100px;
 	height: 100px;*/
+/*	position: relative;
+	top: -100px;*/	
 }
 .flip-card{
 	position: relative;
@@ -152,7 +154,7 @@ h2{
 }
 .hover-info{
 	position: relative;
-	top: -140px;
+	top: -230px;
 	color: #132257;
 	font-family: helvetica, sans-serif;
 }
@@ -170,19 +172,19 @@ span{
 	font-weight: bold;
 }
 #sessegnon .hover-info{
-	top: -165px;
+	top: -265px;
 }
 #vertonghen .hover-info{
-	top: -155px;
+	top: -265px;
 }
 #alderweireld .hover-info{
-	top: -167px;
+	top: -265px;
 }
 #locelso .hover-info{
-	top: -165px;
+	top: -265px;
 }
 #ndombele .hover-info{
-	top: -165px;
+	top: -265px;
 }
 #ndombele:hover{
 	height: 170px;
