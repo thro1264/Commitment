@@ -220,6 +220,12 @@ h5{
 p, span{
 	color: #132257;
 }
+
+#flex-area{
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
 #slideshow {
   margin: 80px auto;
   position: relative;
@@ -240,4 +246,6 @@ p, span{
 	width: 100%;
 	height: auto;
 }
+
+
 
