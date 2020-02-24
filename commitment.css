@@ -227,6 +227,11 @@ p, span{
 	flex-wrap: nowrap;
 }
 
+#stadium-info{
+	max-width: 30%;
+	margin: 2%;
+}
+
 #slideshow {
   margin: 80px auto;
   position: relative;
