@@ -272,7 +272,34 @@ p, span{
 	display: grid;
 	grid-template-columns: 20% 80%;
 	grid-template-rows: 1fr 1fr 1fr;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%;
+	max-height: 500px;
 }
 
-
+#logo{
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+#opponent{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+#date{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+#location{
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
 
