@@ -226,6 +226,7 @@ p, span{
 }
 
 .slideshow{
+	display: none;
 	max-width: 500px;
 }
 
