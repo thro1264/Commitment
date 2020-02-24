@@ -2,7 +2,6 @@
 // document.getElementbyId('hover-info').onclick=function{
 // 	document.getElementById('hover-info').style.display="visible";
 // }
-
 // Code found on W3 Schools https://www.w3schools.com/w3css/w3css_slideshow.asp
 
 var slideIndex = 0;
