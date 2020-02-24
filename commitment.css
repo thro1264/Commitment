@@ -268,5 +268,11 @@ p, span{
 	max-height: 370px;
 }
 
+#match{
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
 
 
