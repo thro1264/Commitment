@@ -157,6 +157,7 @@ h2{
 	top: -230px;
 	color: #132257;
 	font-family: helvetica, sans-serif;
+	visibility: hidden;
 }
 .hover-info header{
 	display: inline;
