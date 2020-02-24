@@ -22,16 +22,11 @@ h1{
 	line-height: 0.1em;
 	margin-top: 10px;
 	padding-top: 20px;
-
 }
-
 h1 span { 
     background: #fff; 
     padding:0 10px; 
 }
-
-
-
 #tottenham-header{
 	display: block;
 	height: 100px;
@@ -240,13 +235,16 @@ p, span{
 
 #stadium-info{
 	max-width: 30%;
-	margin: 2%;
+	margin: 4%;
 	font-family: 'helvetica',sans-serif;
 	font-size: 24px;
 }
 
 #slideshow {
-  margin: 80px auto;
+/*  margin: 80px auto;*/
+/*  margin-left: 10px;
+  margin-right: 10px;*/
+  margin: 4%;
   position: relative;
   width: 80%;
   height: 485px;
