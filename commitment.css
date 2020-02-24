@@ -273,6 +273,7 @@ p, span{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
+	padding-bottom: 50px;
 }
 .match{
 	display: grid;
@@ -324,4 +325,16 @@ p, span{
 }
 .substitute p{
 	font-family: 'hevletica', sans-serif;
+}
+
+#git{
+	font-family: 'helvetica', sans-serif;
+	text-align: center;
+	padding-bottom: 10px;
+}
+h4{
+	font-size: 28px;
+}
+#git a{
+	margin-top: 10px;
 }
