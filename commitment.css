@@ -230,6 +230,8 @@ p, span{
 #stadium-info{
 	max-width: 30%;
 	margin: 2%;
+	font-family: 'helvetica',sans-serif;
+	font-size: 24px;
 }
 
 #slideshow {
