@@ -320,4 +320,6 @@ p, span{
 	grid-column-end: 3;
 	margin: 0;
 }
-
+.substitute p{
+	font-family: 'hevletica', sans-serif;
+}
