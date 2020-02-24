@@ -172,19 +172,25 @@ span{
 	font-weight: bold;
 }
 #sessegnon .hover-info{
-	top: -265px;
+	top: -262px;
 }
 #vertonghen .hover-info{
-	top: -265px;
+	top: -250px;
 }
 #alderweireld .hover-info{
-	top: -265px;
+	top: -262px;
+}
+#aurier .hover-info{
+	top: -235px;
 }
 #locelso .hover-info{
-	top: -265px;
+	top: -263px;
 }
 #ndombele .hover-info{
-	top: -265px;
+	top: -260px;
+}
+#moura .hover-info{
+	top: -235px;
 }
 #ndombele:hover{
 	height: 170px;
