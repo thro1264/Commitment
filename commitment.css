@@ -206,7 +206,7 @@ span{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: space-between;
 }
 h5{
 	color: #132257;
@@ -219,6 +219,8 @@ h5{
 }
 .substitute{
 	padding: 10px;
+/*	padding-left: 40px;
+	padding-right: 40px;*/
 }
 .substitute img{
 	max-height: 200px;
