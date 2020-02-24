@@ -220,3 +220,13 @@ h5{
 p, span{
 	color: #132257;
 }
+
+.slide{
+	width: 100%;
+}
+
+.slideshow{
+	max-width: 500px;
+}
+
+
