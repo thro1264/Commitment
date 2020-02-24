@@ -264,5 +264,9 @@ p, span{
 	height: auto;
 }
 
+#outside{
+	max-height: 370px;
+}
+
 
 
